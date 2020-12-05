@@ -8,8 +8,8 @@ namespace MusicMarket.Core
 {
     public interface IUnitOfWork : IDisposable
     {
-        IMusicRepository Musics { get; }
-        IArtistRepository Artists { get; }
+        IBooksRepository Book{ get; }
+        IWritersRepository Writer{ get; }
         Task<int> CommitAsync();
     }
 }

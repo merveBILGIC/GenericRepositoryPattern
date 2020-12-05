@@ -13,15 +13,15 @@ namespace MusicMarket.Api.Mapping
         public MappingProfile()
         {
             // Domain to Resource
-            CreateMap<Music, MusicDTO>();
-            CreateMap<Artist, ArtistDTO>();
+            CreateMap<Books, BooksDTO>();
+            CreateMap<Writers, WritersDTO>();
 
             // Resource to Domain
-            CreateMap<MusicDTO, Music>();
-            CreateMap<ArtistDTO, Artist>();
+            CreateMap<BooksDTO, Books>();
+            CreateMap<WritersDTO, Writers>();
 
-            CreateMap<SaveMusicDTO, Music>();
-            CreateMap<SaveArtistDTO, Artist>();
+            CreateMap<SaveBooksDTo, Books>();
+            CreateMap<SaveWritersDTO, Writers>();
         }
     }
 }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MusicMarket.Services
 {
-    public class ArtistService : IArtistService
+    public class ArtistService : IWritersService
     {
         private readonly IUnitOfWork _unitOfWork;
         public ArtistService(IUnitOfWork unitOfWork)
@@ -16,7 +16,7 @@ namespace MusicMarket.Services
             this._unitOfWork = unitOfWork;
         }
 
-        public async Task<Artist> CreateArtist(Artist newArtist)
+        public async Task<Writers> CreateArtist(Writers newArtist)
         {
             await _unitOfWork.Artists
                 .AddAsync(newArtist);
@@ -24,24 +24,24 @@ namespace MusicMarket.Services
             return newArtist;
         }
 
-        public async Task DeleteArtist(Artist artist)
+        public async Task DeleteArtist(Writers artist)
         {
             _unitOfWork.Artists.Remove(artist);
 
             await _unitOfWork.CommitAsync();
         }
 
-        public async Task<IEnumerable<Artist>> GetAllArtists()
+        public async Task<IEnumerable<Writers>> GetAllArtists()
         {
             return await _unitOfWork.Artists.GetAllAsync();
         }
 
-        public async Task<Artist> GetArtistById(int id)
+        public async Task<Writers> GetArtistById(int id)
         {
             return await _unitOfWork.Artists.GetByIdAsync(id);
         }
 
-        public async Task UpdateArtist(Artist artistToBeUpdated, Artist artist)
+        public async Task UpdateArtist(Writers artistToBeUpdated, Writers artist)
         {
             artistToBeUpdated.Name = artist.Name;
 

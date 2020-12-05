@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MusicMarket.Api.Validators
 {
-    public class SaveArtistResourceValidator: AbstractValidator<SaveArtistDTO>
+    public class SaveArtistResourceValidator: AbstractValidator<SaveWritersDTO>
     {
         public SaveArtistResourceValidator()
         {

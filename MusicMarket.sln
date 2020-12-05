@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicMarket.Api", "MusicMarket.Api\MusicMarket.Api.csproj", "{91435C7E-DDEB-4F8A-AE28-0B0F5A59E9DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookMarket.Api", "MusicMarket.Api\BookMarket.Api.csproj", "{91435C7E-DDEB-4F8A-AE28-0B0F5A59E9DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicMarket.Core", "MusicMarket.Core\MusicMarket.Core.csproj", "{C0EFD35B-AD8E-464D-836A-B52F0CD952E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookMarket.Core", "MusicMarket.Core\BookMarket.Core.csproj", "{C0EFD35B-AD8E-464D-836A-B52F0CD952E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicMarket.Data", "MusicMarket.Data\MusicMarket.Data.csproj", "{F4F46C48-F478-4EED-A6F4-6F213125131B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookMarket.Data", "MusicMarket.Data\BookMarket.Data.csproj", "{F4F46C48-F478-4EED-A6F4-6F213125131B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicMarket.Services", "MusicMarket.Services\MusicMarket.Services.csproj", "{5EAD6FAD-FF3A-40A3-B63F-0AB22A525457}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookMarket.Services", "MusicMarket.Services\BookMarket.Services.csproj", "{5EAD6FAD-FF3A-40A3-B63F-0AB22A525457}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{91435C7E-DDEB-4F8A-AE28-0B0F5A59E9DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -72,5 +69,11 @@ Global
 		{5EAD6FAD-FF3A-40A3-B63F-0AB22A525457}.Release|x64.Build.0 = Release|Any CPU
 		{5EAD6FAD-FF3A-40A3-B63F-0AB22A525457}.Release|x86.ActiveCfg = Release|Any CPU
 		{5EAD6FAD-FF3A-40A3-B63F-0AB22A525457}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {250A0D4A-DB32-4B4C-BC4C-0DCA464BCC91}
 	EndGlobalSection
 EndGlobal

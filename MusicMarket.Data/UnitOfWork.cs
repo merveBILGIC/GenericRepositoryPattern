@@ -10,18 +10,18 @@ namespace MusicMarket.Data
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly MusicMarketDbContext _context;
-        private MusicRepository _musicRepository;
-        private ArtistRepository _artistRepository;
+        private readonly BooksMarketDbContext _context;
+        private BookRepository _bookRepository;
+        private WriterRepository _writerRepository;
 
-        public UnitOfWork(MusicMarketDbContext context)
+        public UnitOfWork(BooksMarketDbContext context)
         {
             this._context = context;
         }
 
-        public IMusicRepository Musics => _musicRepository = _musicRepository ?? new MusicRepository(_context);
+        public IBooksRepository Book=> _bookRepository = _bookRepository ?? new BookRepository(_context);
 
-        public IArtistRepository Artists => _artistRepository = _artistRepository ?? new ArtistRepository(_context);
+        public IWritersRepository Artists => _writerRepository = _writerRepository ?? new WriterRepository(_context);
 
         public async Task<int> CommitAsync()
         {

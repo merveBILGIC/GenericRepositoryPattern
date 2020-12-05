@@ -34,9 +34,9 @@ namespace MusicMarket.Api
         {
             services.AddControllers();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
-            services.AddTransient<IMusicService, MusicService>();
-            services.AddTransient<IArtistService, ArtistService>();
-            services.AddDbContext<MusicMarketDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DevConnection"), x => x.MigrationsAssembly("MusicMarket.Data")));
+            services.AddTransient<IBooksService, BookService>();
+            services.AddTransient<IWritersService, WriterService>();
+            services.AddDbContext<BooksMarketDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DevConnection"), x => x.MigrationsAssembly("MusicMarket.Data")));
             services.AddSwaggerGen(options =>
             {
                 options.SwaggerDoc("v1", new OpenApiInfo { Title = "Music Market", Version = "v1" });

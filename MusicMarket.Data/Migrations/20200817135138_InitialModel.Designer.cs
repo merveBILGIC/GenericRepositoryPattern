@@ -8,7 +8,7 @@ using MusicMarket.Data;
 
 namespace MusicMarket.Data.Migrations
 {
-    [DbContext(typeof(MusicMarketDbContext))]
+    [DbContext(typeof(BooksMarketDbContext))]
     [Migration("20200817135138_InitialModel")]
     partial class InitialModel
     {

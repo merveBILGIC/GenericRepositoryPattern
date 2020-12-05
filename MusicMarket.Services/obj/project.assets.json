@@ -11,17 +11,17 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "MusicMarket.Core/1.0.0": {
+      "BookMarket.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "compile": {
-          "bin/placeholder/MusicMarket.Core.dll": {}
+          "bin/placeholder/BookMarket.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MusicMarket.Core.dll": {}
+          "bin/placeholder/BookMarket.Core.dll": {}
         }
       }
     }
@@ -64,35 +64,35 @@
         "version.txt"
       ]
     },
-    "MusicMarket.Core/1.0.0": {
+    "BookMarket.Core/1.0.0": {
       "type": "project",
-      "path": "../MusicMarket.Core/MusicMarket.Core.csproj",
-      "msbuildProject": "../MusicMarket.Core/MusicMarket.Core.csproj"
+      "path": "../MusicMarket.Core/BookMarket.Core.csproj",
+      "msbuildProject": "../MusicMarket.Core/BookMarket.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "MusicMarket.Core >= 1.0.0"
+      "BookMarket.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Coskun\\.nuget\\packages\\": {},
+    "C:\\Users\\merve bilgiç\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\RepositoryPattern\\yeni\\MusicMarket.Services\\MusicMarket.Services.csproj",
-      "projectName": "MusicMarket.Services",
-      "projectPath": "D:\\RepositoryPattern\\yeni\\MusicMarket.Services\\MusicMarket.Services.csproj",
-      "packagesPath": "C:\\Users\\Coskun\\.nuget\\packages\\",
-      "outputPath": "D:\\RepositoryPattern\\yeni\\MusicMarket.Services\\obj\\",
+      "projectUniqueName": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\GenericRepositoryPattern\\MusicMarket.Services\\BookMarket.Services.csproj",
+      "projectName": "BookMarket.Services",
+      "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\GenericRepositoryPattern\\MusicMarket.Services\\BookMarket.Services.csproj",
+      "packagesPath": "C:\\Users\\merve bilgiç\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\GenericRepositoryPattern\\MusicMarket.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Coskun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\merve bilgiç\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -104,9 +104,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\RepositoryPattern\\yeni\\MusicMarket.Core\\MusicMarket.Core.csproj": {
-              "projectPath": "D:\\RepositoryPattern\\yeni\\MusicMarket.Core\\MusicMarket.Core.csproj"
+            "C:\\Users\\merve bilgiç\\Documents\\GitHub\\GenericRepositoryPattern\\MusicMarket.Core\\BookMarket.Core.csproj": {
+              "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\GenericRepositoryPattern\\MusicMarket.Core\\BookMarket.Core.csproj"
             }
           }
         }
@@ -119,6 +120,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -134,7 +136,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -58,23 +58,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Coskun\\.nuget\\packages\\": {},
+    "C:\\Users\\merve bilgiç\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\RepositoryPattern\\yeni\\MusicMarket.Core\\MusicMarket.Core.csproj",
-      "projectName": "MusicMarket.Core",
-      "projectPath": "D:\\RepositoryPattern\\yeni\\MusicMarket.Core\\MusicMarket.Core.csproj",
-      "packagesPath": "C:\\Users\\Coskun\\.nuget\\packages\\",
-      "outputPath": "D:\\RepositoryPattern\\yeni\\MusicMarket.Core\\obj\\",
+      "projectUniqueName": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\GenericRepositoryPattern\\MusicMarket.Core\\BookMarket.Core.csproj",
+      "projectName": "BookMarket.Core",
+      "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\GenericRepositoryPattern\\MusicMarket.Core\\BookMarket.Core.csproj",
+      "packagesPath": "C:\\Users\\merve bilgiç\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\GenericRepositoryPattern\\MusicMarket.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Coskun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\merve bilgiç\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -86,6 +86,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -97,6 +98,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "System.Threading.Tasks.Extensions": {
             "target": "Package",
@@ -118,7 +120,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
